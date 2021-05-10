@@ -1,4 +1,7 @@
 # Twitter_Bot
+
+The Bot: https://twitter.com/BotTeiro
+
 A Twitter Bot that retweets news from around the world and provides a daily quote. If he is on the mood you could even get a reponse from him!
 
 ## Built With
@@ -37,7 +40,7 @@ To run the rspec tests locally :
 2) Go to the directory where the game is located, it will be the one where you cloned the repository. Execute the main.rb by typing:
     - <code>bin/main.rb</code>
 
-3) Alright! The bot is already on, unless you modified the parameters it will do three different things every five minutes:
+3) Alright! The bot (https://twitter.com/BotTeiro) is already on, unless you modified the parameters it will do three different things every five minutes:
 
       a) It will retweet a notice for each tag passed as parameter (in this case, world news)
       b) It will post a quote (it has over 100 famous quotes stored!)
