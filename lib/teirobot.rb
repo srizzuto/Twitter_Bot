@@ -1,7 +1,7 @@
 require 'twitter'
-require './lib/news_retweet.rb'
-require './lib/quotes.rb'
-require './lib/mentions_ans.rb'
+require './lib/news_retweet'
+require './lib/quotes'
+require './lib/mentions_ans'
 
 class TeiroBot
   attr_reader :client, :mentions, :quoter, :retweet
@@ -13,25 +13,26 @@ class TeiroBot
   OA_SECRET = 'yvemotmgGQRsqfzvJU0YQbNCbtSuKuRBlgvFhCqfmqhkI'.freeze
 
   def initialize
-    @mentions = Answers.new()
-    @quoter = Quote.new()
-    @retweet = News.new()
+    @mentions = Answers.new
+    @quoter = Quote.new
+    @retweet = News.new
     @client = Twitter::REST::Client.new do |config|
       config.consumer_key = CONSUMER_KEY
       config.consumer_secret = CONSUMER_SECRET
       config.access_token = OA_TOKEN
       config.access_token_secret = OA_SECRET
-    end  
+    end
   end
 
-  def do_retweet(hashtag = "#argentina", n_retweets = 1)
-    h_array = hashtag.split(' ')
-    h_array.each { |hash| @retweet.news_retweet(@client, hash, n_retweets)
-    } 
+  def do_retweet(hashtag = '#argentina', n_retweets = 1)
+    h_array = hashtag.split
+    h_array.each do |hash|
+      @retweet.news_retweet(@client, hash, n_retweets)
+    end
   end
 
   def do_post(n_times = 1)
-    for n in (0...n_times)
+    (0...n_times).each do |_n|
       @quoter.tweet_quote(@client)
     end
   end
