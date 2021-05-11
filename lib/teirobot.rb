@@ -1,16 +1,17 @@
 require 'twitter'
-require './lib/news_retweet'
-require './lib/quotes'
-require './lib/mentions_ans'
+require_relative '../lib/news_retweet'
+require_relative '../lib/quotes'
+require_relative '../lib/mentions_ans'
 
 class TeiroBot
   attr_reader :client, :mentions, :quoter, :retweet
 
-  CONSUMER_KEY = '99P4HngMjK4rml2SDLlCia2J0'.freeze
-  CONSUMER_SECRET = 'A3sVY2Md5AauDIGyoOMbv3vz39l5Ng5ZTdOlL7xhrItuuFIKCR'.freeze
+  # Put API Keys here
+  CONSUMER_KEY = ''.freeze
+  CONSUMER_SECRET = ''.freeze
 
-  OA_TOKEN = '1390355577189113857-XZxk1xCqVOGhYZC6xxsz6bGX9GcGfd'.freeze
-  OA_SECRET = 'yvemotmgGQRsqfzvJU0YQbNCbtSuKuRBlgvFhCqfmqhkI'.freeze
+  OA_TOKEN = ''.freeze
+  OA_SECRET = ''.freeze
 
   def initialize
     @mentions = Answers.new

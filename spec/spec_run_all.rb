@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-system 'spec_mentions_ans'
-system 'spec_news_retweet'
-system 'spec_quotes'
-system 'spec_teirobot'
+system 'rspec ./spec/spec_mentions_ans.rb'
+system 'rspec ./spec/spec_news_retweet.rb'
+system 'rspec ./spec/spec_quotes.rb'
+system 'rspec ./spec/spec_teirobot.rb'

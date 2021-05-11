@@ -28,27 +28,27 @@ describe Answers do
     end
   end
 
-  describe '#get_line' do
+  describe '#read_line' do
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(1)).to eq("All good. What about you?\n")
+      expect(ans.read_line(1)).to eq("All good. What about you?\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(2)).to eq("Don't ask me. I'm just a bot.\n")
+      expect(ans.read_line(2)).to eq("Don't ask me. I'm just a bot.\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(3)).to eq("That's not funny at all. >:(\n")
+      expect(ans.read_line(3)).to eq("That's not funny at all. >:(\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(4)).to eq("Hey! :)\n")
+      expect(ans.read_line(4)).to eq("Hey! :)\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(5)).to eq("Have a nice day!\n")
+      expect(ans.read_line(5)).to eq("Have a nice day!\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(6)).to eq("You're welcome.\n")
+      expect(ans.read_line(6)).to eq("You're welcome.\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.get_line(7)).to eq("Sorry, I don't get it. Could you try again?\n")
+      expect(ans.read_line(7)).to eq("Sorry, I don't get it. Could you try again?\n")
     end
   end
 end
