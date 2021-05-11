@@ -7,10 +7,10 @@ class TeiroBot
   attr_reader :client, :mentions, :quoter, :retweet
 
   # Put API Keys here
-  CONSUMER_KEY = ''.freeze
+  CONSUMER_KEY = '99P4HngMjK4rml2SDLlCia2J0'.freeze
   CONSUMER_SECRET = ''.freeze
 
-  OA_TOKEN = ''.freeze
+  OA_TOKEN = '1390355577189113857-XZxk1xCqVOGhYZC6xxsz6bGX9GcGfd'.freeze
   OA_SECRET = ''.freeze
 
   def initialize
