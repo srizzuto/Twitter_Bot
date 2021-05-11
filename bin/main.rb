@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative './lib/teirobot'
+require_relative '../lib/teirobot'
 
 TBot = TeiroBot.new
 
