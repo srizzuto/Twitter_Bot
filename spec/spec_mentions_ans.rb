@@ -12,9 +12,6 @@ describe Answers do
       expect(ans.get_reply('Do you know about this?')).to eq("Don't ask me. I'm just a bot.\n")
     end
     it 'returns adecuate answer for each mention' do
-      expect(ans.get_reply('haha')).to eq("That's not funny at all. >:(\n")
-    end
-    it 'returns adecuate answer for each mention' do
       expect(ans.get_reply('Hello')).to eq("Hey! :)\n")
     end
     it 'returns adecuate answer for each mention' do
@@ -36,19 +33,16 @@ describe Answers do
       expect(ans.read_line(2)).to eq("Don't ask me. I'm just a bot.\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.read_line(3)).to eq("That's not funny at all. >:(\n")
+      expect(ans.read_line(3)).to eq("Hey! :)\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.read_line(4)).to eq("Hey! :)\n")
+      expect(ans.read_line(4)).to eq("Have a nice day!\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.read_line(5)).to eq("Have a nice day!\n")
+      expect(ans.read_line(5)).to eq("You're welcome.\n")
     end
     it 'returns a line from the .txt file' do
-      expect(ans.read_line(6)).to eq("You're welcome.\n")
-    end
-    it 'returns a line from the .txt file' do
-      expect(ans.read_line(7)).to eq("Sorry, I don't get it. Could you try again?\n")
+      expect(ans.read_line(6)).to eq("Sorry, I don't get it. Could you try again?\n")
     end
   end
 end
