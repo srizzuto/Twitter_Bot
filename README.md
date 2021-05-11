@@ -44,9 +44,9 @@ To run the rspec tests locally :
 
 4) Alright! The bot (https://twitter.com/BotTeiro) is already on, unless you modified the parameters it will do three different things every five minutes:
 
-      a) It will retweet a notice for each tag passed as parameter (in this case, world news)
-      b) It will post a quote (it has over 100 famous quotes stored!)
-      c) If the bot is mentioned, before doing retweets and post the quote it will take the last mention and answer to it.
+      - It will retweet a notice for each tag passed as parameter (in this case, world news).
+      - It will post a quote (it has over 100 famous quotes stored!).
+      - If the bot is mentioned, before doing retweets and post the quote it will take the last mention and answer to it.
 
 5) Whenever you want to terminate the program, use <code>ctrl + C</code> to finish the program.
 
