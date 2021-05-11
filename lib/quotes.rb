@@ -1,8 +1,7 @@
 class Quote
-  
   def initialize
     @filename = './resources/quotes.txt'
-    @counter = 0    
+    @counter = 0
   end
 
   def take_quote
