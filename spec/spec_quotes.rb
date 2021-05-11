@@ -1,7 +1,6 @@
 require_relative '../lib/quotes'
 
 describe Quote do
-
   before(:all) do
     @quo = Quote.new
   end
