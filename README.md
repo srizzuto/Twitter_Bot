@@ -37,7 +37,7 @@ To run the rspec tests locally :
     - On Linux => <code>ctrl + alt + T</code>
     - On Mac => <code>Control + Option + Shift + T</code>
 
-2) To get access to the bot you will need API Keys. To require them you can reach me on <a href="https://microverse-students.slack.com/team/U01QKHGNZLZ">Slack</a>, <a href="https://twitter.com/sbstnrzzt">Twitter</a>,<a href="https://github.com/srizzuto">GitHub</a>
+2) To get access to the bot you will need API Keys. To require them you can reach me on <a href="https://microverse-students.slack.com/team/U01QKHGNZLZ">Slack</a>, <a href="https://twitter.com/sbstnrzzt">Twitter</a> or <a href="https://github.com/srizzuto">GitHub</a>
 
 3) In the directory where the bot is located, it will be the one where you cloned the repository. Execute the main.rb by typing:
     - <code>bin/main.rb</code>
