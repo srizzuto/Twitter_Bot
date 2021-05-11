@@ -25,10 +25,10 @@ Go to https://github.com/srizzuto/Twitter_Bot
 To run the rspec tests locally :
 
 1) If you want a specific block:
-    - On terminal <code>rspec ./spec/mentions_ans.rb</code>, <code>rspec ./spec/quotes.rb</code>, <code>rspec ./spec/teirobot.rb</code> or <code>rspec ./spec/news_retweets.rb</code>
+    - On terminal <code>rspec ./spec/spec_mentions_ans.rb</code>, <code>rspec ./spec/spec_quotes.rb</code>, <code>rspec ./spec/spec_teirobot.rb</code> or <code>rspec ./spec/spec_news_retweet.rb</code>
 
 2) If you want to execute all at once
-    - On terminal <code>ruby ./spec_run_all.rb</code>
+    - On terminal <code>ruby ./spec/spec_run_all.rb</code>
 
 ## Instructions
 
