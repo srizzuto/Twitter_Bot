@@ -1,5 +1,5 @@
-require './lib/teirobot'
-require './lib/mentions_ans'
+require_relative '../lib/teirobot'
+require_relative '../lib/mentions_ans'
 
 describe Answers do
   let(:ans) { Answers.new }

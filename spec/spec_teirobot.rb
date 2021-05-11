@@ -1,7 +1,7 @@
-require './lib/teirobot'
-require './lib/news_retweet'
-require './lib/quotes'
-require './lib/mentions_ans'
+require_relative '../lib/teirobot'
+require_relative '../lib/news_retweet'
+require_relative '../lib/quotes'
+require_relative '../lib/mentions_ans'
 
 describe TeiroBot do
   describe '#initialize' do

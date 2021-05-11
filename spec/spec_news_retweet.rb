@@ -1,5 +1,5 @@
-require './lib/news_retweet'
-require './lib/teirobot'
+require_relative '../lib/news_retweet'
+require_relative '../lib/teirobot'
 
 describe News do
   let(:client) { TeiroBot.new.client }
