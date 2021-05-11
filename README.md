@@ -37,16 +37,16 @@ To run the rspec tests locally :
     - On Linux => <code>ctrl + alt + T</code>
     - On Mac => <code>Control + Option + Shift + T</code>
 
-2) To get access to the bot you will need API Keys. To require them you can reach me on <a href="https://microverse-students.slack.com/team/U01QKHGNZLZ">Slack</a>, <a href="https://twitter.com/sbstnrzzt">Twitter</a>,<a href="https://github.com/srizzuto">GitHub</a>
+2) To get access to the bot you will need API Keys. To require them you can reach me on <a href="https://microverse-students.slack.com/team/U01QKHGNZLZ">Slack</a>, <a href="https://twitter.com/sbstnrzzt">Twitter</a> or <a href="https://github.com/srizzuto">GitHub</a>
 
 3) In the directory where the bot is located, it will be the one where you cloned the repository. Execute the main.rb by typing:
     - <code>bin/main.rb</code>
 
 4) Alright! The bot (https://twitter.com/BotTeiro) is already on, unless you modified the parameters it will do three different things every five minutes:
 
-      a) It will retweet a notice for each tag passed as parameter (in this case, world news)
-      b) It will post a quote (it has over 100 famous quotes stored!)
-      c) If the bot is mentioned, before doing retweets and post the quote it will take the last mention and answer to it.
+      - It will retweet a notice for each tag passed as parameter (in this case, world news).
+      - It will post a quote (it has over 100 famous quotes stored!).
+      - If the bot is mentioned, before doing retweets and post the quote it will take the last mention and answer to it.
 
 5) Whenever you want to terminate the program, use <code>ctrl + C</code> to finish the program.
 
