@@ -1,5 +1,7 @@
 # Twitter_Bot
 
+![Screenshot](./resources/teirobot_ss.jpeg)
+
 The Bot: https://twitter.com/BotTeiro
 
 A Twitter Bot that retweets news from around the world and provides a daily quote. If he is on the mood you could even get a reponse from him!
