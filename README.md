@@ -1,6 +1,6 @@
 # Twitter_Bot
 
-![Screenshot](./resources/teirobot_ss.jpeg)
+![Screenshot](./resources/teirobot_ss.jpg)
 
 The Bot: https://twitter.com/BotTeiro
 
